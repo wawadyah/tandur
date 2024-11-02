@@ -6,12 +6,13 @@ function Talk() {
   return (
     <div className='w-full h-[632px] relative'>
         <img src={drop} alt="halaman" className='w-full h-[632px]'/>
-        <div className=' absolute  top-10 left-20 bottom-20 right-20 text-white  flex  '>
+        <div className=' absolute  top-10 left-20 bottom-20 right-20 text-white flex'>
             <div className='text-6xl font-semibold  basis-2/3'>GET IN TOUCH</div>
-            <div className=' w-full flex flex-col justify-end  '>
+            <div className='flex flex-col justify-end basis-full'>
                 <div className=' mb-20'>
-                    <div className='text-4xl w-2/3 text-start mb-6'>Be a Part of the Global Movement</div>
-                    <p className='w-9/12 text-[24px] font-light'>By Choosing Transforming Agriculture you and support innovate solutions that benefit our planet</p>
+                    <div className='text-4xl w-[40%] text-start mb-6'>Be a Part of the Global Movement</div>
+                    <p className='w-8/12 text-[24px] font-light'>By Choosing Transforming Agriculture you can help 
+                    and support innovate solutions that benefit our planet</p>
                 </div>
                 <div className='bg-white p-2 w-fit text-black rounded-full flex space-x-4 items-center'>
                     <p>Let's Talk</p>
